@@ -14,14 +14,26 @@
     "strictNullChecks": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "rootDir": ".",
     "jsx": "react-jsx",
     "allowJs": true,
     "resolveJsonModule": true,
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ],
+    "types": [
+      "node",
+      "webpack-env",
+      "miniprogram-api-typings",
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+    }
   },
-  "include": ["./src", "global.d.ts"],
+  "include": [
+    "./src",
+    "global.d.ts"
+  ],
   "compileOnSave": false
 }

@@ -1,7 +1,25 @@
 {
-  "extends": ["taro/react"],
+  "extends": [
+    "taro/react",
+    "prettier"
+  ],
+  // https://eslint.org/docs/rules
   "rules": {
+    "import/no-commonjs": "off",
     "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "semi": [
+      "error",
+      "never"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "array-callback-return": "error",
+    // 禁止使用多个空格
+    "no-multi-spaces": "error",
+    // 禁止出现多行空行
+    "no-multiple-empty-lines": "error"
   }
 }

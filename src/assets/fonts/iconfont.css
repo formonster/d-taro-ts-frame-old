@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2952911 */
+  src: url('~@/assets/fonts/iconfont.woff2?t=1637481469796') format('woff2'),
+       url('~@/assets/fonts/iconfont.woff?t=1637481469796') format('woff'),
+       url('~@/assets/fonts/iconfont.ttf?t=1637481469796') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont-plus:before {
+  content: "\e600";
+}
+
+.iconfont-close:before {
+  content: "\e903";
+}
+
+.iconfont-shuoming:before {
+  content: "\e628";
+}
+
+.iconfont-aircraft:before {
+  content: "\e62a";
+}
+
+.iconfont-arrow-right:before {
+  content: "\e64e";
+}
+
+.iconfont-null:before {
+  content: "\e708";
+}
+
+.iconfont-qr:before {
+  content: "\e65a";
+}
+
+.iconfont-build:before {
+  content: "\e609";
+}
+
+.iconfont-home:before {
+  content: "\e60a";
+}
+
+.iconfont-user:before {
+  content: "\e60b";
+}
+
+.iconfont-search:before {
+  content: "\e60c";
+}
+
+.iconfont-push:before {
+  content: "\e60d";
+}
